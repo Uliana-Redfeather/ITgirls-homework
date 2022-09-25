@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .flexheader {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            background-color: rgb(194, 192, 192);
+            align-items: center;
+            justify-content: center
+        }
+        .main {
+            display: flex;
+            background-color: rgb(240, 227, 188);
+            flex-direction: row;
+            height: 30vh;
+            align-items: stretch;
+            justify-content: center;
+            width: 70%;
+            
+        }
+        .side {
+            display: flex;
+            width: 30%;
+            background-color: rgb(191, 243, 200);
+        }
+        .blocks {
+            display: flex;
+            align-self:center;
+            background-color: rgb(250, 163, 136);
+            width: 150px;
+            height: 50px;
+            justify-content: space-between;
+        }
+        .blocks1 {
+            display: flex;
+            align-self:flex-end;
+            background-color: rgb(250, 163, 136);
+            width: 150px;
+            height: 50px;
+        }
+        .flexfooter{
+            display: flex;
+            background-color: rgb(194, 192, 192);
+            width: auto;
+            justify-content: space-evenly;
+            height: 50px;
+            align-self: center;
+        }
+        .footer{
+            background-color: rgb(228, 228, 228);
+            width: 100px;
+            height: 35px;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="flexheader">
+<div>
+    Шапка
+</div>
+    </header>
+    <div class="container">
+                    <div class="main">Основная часть
+                        <div class="blocks">Материал 3</div>
+                        <div class="blocks1">Материал 4</div>
+                        <div class="blocks">Материал 5</div>
+                    </div>
+            <div class="side">
+                Материал 2</div>
+        
+
+    </div>
+    <footer class="flexfooter">
+        <div class="footer">Футер 1</div>
+        <div class="footer">Футер 2</div>
+        <div class="footer">Футер 3</div>
+        <div class="footer">Футер 4</div>
+    </footer>
+</body>
+</html>
