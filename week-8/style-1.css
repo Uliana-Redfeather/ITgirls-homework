@@ -1,0 +1,383 @@
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(236, 43, 43);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(243, 208, 50);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(83, 241, 52);
+    border-radius: 50%;
+    display: inline-block;
+}
+.text-1{
+    position: absolute;
+left: 127px;
+right: 1163px;
+top: 99px;
+bottom: 782px;
+}
+.text-2{
+    position: absolute;
+width: 542px;
+height: 72px;
+left: 125px;
+top: 218px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 120%;
+}
+.rectangle{
+    position: absolute;
+width: 365px;
+height: 233px;
+left: 127px;
+top: 330px;
+background-color: #EC615B;
+}
+.cardtitle{
+    position: absolute;
+width: 365px;
+height: 36px;
+left: 125px;
+top: 623px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+}
+.cardtext{
+    position: absolute;
+width: 365px;
+height: 160px;
+left: 125px;
+top: 669px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.praktikum3{
+    position: absolute;
+width: 298px;
+height: 255px;
+left: 162px;
+top: 345px;
+}
+.rectangle1{
+    position: absolute;
+    width: 365px;
+    height: 233px;
+    left: 563px;
+    top: 330px;
+    
+    background: #EC615B;
+}
+.cardtitle1{
+    position: absolute;
+width: 365px;
+height: 36px;
+left: 563px;
+top: 623px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+}
+.cardtext1{
+    position: absolute;
+width: 365px;
+height: 160px;
+left: 563px;
+top: 669px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.praktikum2{
+    position: absolute;
+width: 303px;
+height: 278px;
+left: 587px;
+top: 330px;
+}
+.rectangle2{
+    position: absolute;
+width: 365px;
+height: 233px;
+left: 1003px;
+top: 328px;
+
+background: #EC615B;
+}
+.praktikum1{
+    position: absolute;
+width: 340px;
+height: 265px;
+left: 1015px;
+top: 333px;
+}
+.cardtext2{
+    position: absolute;
+    width: 365px;
+    height: 160px;
+    left: 1001px;
+    top: 669px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+.cardtitle2{
+    position: absolute;
+width: 365px;
+height: 36px;
+left: 1001px;
+top: 623px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+}
+.cardtitle3{
+    position: absolute;
+width: 365px;
+height: 36px;
+left: 125px;
+top: 879px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+}
+.cardtext3{
+    position: absolute;
+width: 365px;
+height: 160px;
+left: 125px;
+top: 925px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.cardtitle4{
+    position: absolute;
+width: 365px;
+height: 36px;
+left: 563px;
+top: 879px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+}
+.cardtext4{
+    position: absolute;
+width: 365px;
+height: 128px;
+left: 563px;
+top: 925px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.rectangle3{
+    position: absolute;
+width: 365px;
+height: 233px;
+left: 1003px;
+top: 854px;
+background: #EC615B;
+}
+.text-3{
+    position: absolute;
+width: 325px;
+height: 36px;
+left: 1021px;
+top: 879px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+color: #FFFFFF;
+}
+.btn1{
+    position: absolute;
+    width: 135px;
+    height: 38px;
+left: 1021px;
+right: 284px;
+top: 994px;
+bottom: 279px;
+color: white;
+background: #5222D0;
+border-radius: 100px;
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+}
+.footer-1{
+    position: absolute;
+width: 139px;
+height: 32px;
+left: 126px;
+top: 1199px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.footer-2{
+    position: absolute;
+width: 111px;
+height: 32px;
+left: 299px;
+top: 1199px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.footer-3{
+    position: absolute;
+width: 95px;
+height: 32px;
+left: 444px;
+top: 1199px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.footer-4{
+    position: absolute;
+width: 85px;
+height: 32px;
+left: 573px;
+top: 1199px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.form{
+    position: absolute;
+width: 323px;
+height: 50px;
+left: 1023px;
+top: 921px;
+
+background: #FFFFFF;
+}
+.btn2{
+    position: absolute;
+    width: 135px;
+    height: 38px;
+color: white;
+background: #5222D0;
+border-radius: 100px;
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+left: 1251px;
+top: 89px;
+right: 74px;
+bottom: 1184px;
+}
+.browser{
+    position: absolute;
+width: 1440px;
+height: 40px;
+left: 0px;
+top: 0px;
+}
+.vr{
+    position: absolute;
+width: 23px;
+height: 16px;
+left: 679px;
+top: 12px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+}
+.circle{
+    position: absolute;
+    width: 28px;
+        height: 28px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        left: 88px;
+        right: 1324px;
+        top: 102px;
+        bottom: 770px;
+        background: #EC615B;
+}
+.circle1{
+    position: absolute;
+    width: 28px;
+        height: 28px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        left: 76px;
+        right: 1336px;
+        top: 90px;
+        bottom: 782px;
+        background: #5222D0;
+        mix-blend-mode: multiply;
+}

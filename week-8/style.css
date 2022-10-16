@@ -1,0 +1,210 @@
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(236, 43, 43);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(243, 208, 50);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(83, 241, 52);
+    border-radius: 50%;
+    display: inline-block;
+}
+.text-1{
+    position: absolute;
+left: 127px;
+right: 1163px;
+top: 99px;
+bottom: 782px;
+}
+.btn{
+    position: absolute;
+    left: 1251px;
+right: 74px;
+top: 89px;
+bottom: 773px;
+background: #5222D0;
+border-radius: 100px;
+width: 135px;
+height: 38px;
+}
+.text-2{
+    position: absolute;
+width: 542px;
+height: 216px;
+left: 126px;
+top: 206px;
+
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 120%;
+}
+.text-3{
+    position: absolute;
+width: 487px;
+height: 96px;
+left: 126px;
+top: 432px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
+.button{
+    position: absolute;
+    top: 558px;
+left: 116px;
+right: 1054px;
+bottom: 258px;
+width: 135px;
+height: 38px;
+width: 280px;
+height: 84px;
+}
+.possibilities{
+    position: absolute;
+width: 139px;
+height: 32px;
+left: 126px;
+top: 788px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+
+color: #5222D0;
+}
+.purchase{
+    position: absolute;
+    width: 111px;
+    height: 32px;
+    left: 299px;
+    top: 788px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    
+    color: #5222D0;
+}
+.delivery{
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 444px;
+    top: 788px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+}
+.help{
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    left: 573px;
+    top: 788px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+}
+.background{
+    position: absolute;
+left: 45.62%;
+right: -21.76%;
+top: 14.23%;
+bottom: 11.69%;
+}
+.guy{
+    position: absolute;
+left: 49.4%;
+right: 11.5%;
+top: 17.79%;
+bottom: 5.29%;
+}
+.ico{
+    position: absolute;
+left: 1355px;
+right: 88px;
+top: 99px;
+bottom: 787px;
+}
+.icon{
+    position: absolute;
+    left: 312px;
+    right: 1085px;
+    top: 585px;
+    bottom: 285px;
+}
+.browser{
+    position: absolute;
+width: 1440px;
+height: 40px;
+left: 0px;
+top: 0px;
+}
+.vr{
+    position: absolute;
+width: 23px;
+height: 16px;
+left: 679px;
+top: 12px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+}
+.circle{
+    position: absolute;
+    width: 28px;
+        height: 28px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        left: 88px;
+        right: 1324px;
+        top: 102px;
+        bottom: 770px;
+        background: #EC615B;
+}
+.circle1{
+    position: absolute;
+    width: 28px;
+        height: 28px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        left: 76px;
+        right: 1336px;
+        top: 90px;
+        bottom: 782px;
+        background: #5222D0;
+        mix-blend-mode: multiply;
+}
