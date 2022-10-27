@@ -1,0 +1,37 @@
+.name {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px gray;
+    font-family: Jost Times serif rgb(32, 32, 32) ;
+    background-color: rgb(190, 189, 180);
+}
+.email {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px gray;
+    background-color: rgb(190, 189, 180);
+    font-family: Jost Times serif rgb(32, 32, 32);
+}
+.email:hover{
+    text-decoration: underline;
+}
+.menu {
+    padding: 10px;
+    margin: 10px;
+    font-family: Jost Times serif rgb(32, 32, 32);
+    background-color: rgb(219, 218, 209);
+    box-shadow: 0 0 10px gray;
+}
+img {
+    width: 25vw;
+    border-radius: 25px;
+}
+.hobby {
+    padding: 10px;
+    margin: 10px;
+    font-family: Jost Times serif rgb(32, 32, 32);
+    background-color: rgb(219, 218, 209);
+    box-shadow: 0 0 10px gray;
+}
