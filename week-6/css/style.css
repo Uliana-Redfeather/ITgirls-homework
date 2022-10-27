@@ -1,0 +1,53 @@
+.header {
+  color: rgb(49, 46, 45);
+  background-color: rgb(212, 238, 255);
+  grid-area: header;
+}
+.nav {
+  color: rgb(39, 42, 44);
+  background-color: rgb(219, 255, 233);
+  grid-area: nav;
+}
+.main {
+  color: rgb(51, 49, 47);
+  background-color: rgb(245, 218, 255);
+  grid-area: main;
+}
+.main1 {
+  grid-area: main1;
+  background-color: rgb(209, 243, 241);
+  height: 70px;
+}
+.main2 {
+  grid-area: main2;
+  background-color: rgb(209, 243, 241);
+  height: 70px;
+}
+.main3 {
+  grid-area: main3;
+  background-color: rgb(209, 243, 241);
+  height: 70px;
+}
+.footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 70px;
+  grid-gap: 50px;
+  grid-area: footer;
+  background-color: rgb(213, 207, 247);
+}
+.container {
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 50vh;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header header header header"
+    "main main main nav"
+    "main1 main1 main2 nav"
+    "main3 main3 main3 nav"
+    "footer footer footer footer";
+}

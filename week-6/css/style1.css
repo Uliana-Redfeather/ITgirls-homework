@@ -1,0 +1,27 @@
+.button {
+  text-align: right;
+}
+.container {
+  background-color: rgb(247, 247, 247);
+  display: grid;
+  grid-template-columns: 22% 22% 22%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.text1 {
+  background-color: #ff8f1c;
+  width: 393px;
+  height: 319px;
+}
+.text2 {
+  background-color: #007fc8;
+  color: azure;
+  width: 393px;
+  height: 319px;
+}
+.text3 {
+  background-color: #ffdb00;
+  width: 393px;
+  height: 319px;
+}
