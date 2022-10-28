@@ -9,19 +9,19 @@
   grid-gap: 20px;
   justify-items: center;
 }
-.text1 {
+.decrease-rate-advantages {
   background-color: #ff8f1c;
-  width: 393px;
-  height: 319px;
+  width: 100%;
+  height: 100%;
 }
-.text2 {
+.percentage-of-apartaments {
   background-color: #007fc8;
   color: azure;
-  width: 393px;
-  height: 319px;
+  width: 100%;
+  height: 100%;
 }
-.text3 {
+.mortgage {
   background-color: #ffdb00;
-  width: 393px;
+  width: 100%;
   height: 319px;
 }
