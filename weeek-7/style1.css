@@ -2,6 +2,7 @@
     color: rgb(49, 46, 45);
     background-color: rgb(212, 238, 255);
 grid-area: header;
+height: 10vh;
 }
 .nav{
     color: rgb(39, 42, 44);
@@ -12,6 +13,7 @@ grid-area: header;
     color: rgb(51, 49, 47);
     background-color: rgb(245, 218, 255);
     grid-area: main;
+    height: 10vh;
 }
 .main1{
     grid-area: main1;
@@ -65,16 +67,24 @@ grid-area: header;
 }
 @media screen and (min-width:400px) and (max-width:599px){
     .foot1{
-        display: none;
+        background-color: rgb(230, 213, 247);
+        grid-area: foot1;
+        height: 10vh;
     }
     .foot2{
-        display: none;
+        background-color: rgb(230, 213, 247);
+        grid-area: foot2;
+        height: 10vh;
     }
     .foot3{
-        display: none;
+        background-color: rgb(230, 213, 247);
+        grid-area: foot3;
+        height: 10vh;
     }
     .foot4{
-        display: none;
+        background-color: rgb(230, 213, 247);
+        grid-area: foot4;
+        height: 10vh;
     }
     .container{
         background-color: rgb(241, 236, 236);
@@ -89,21 +99,14 @@ grid-area: header;
         "main main main nav"
         "main1 main1 main2 nav"
         "main3 main3 main3 nav"
+        "foot1 foot1 foot1 foot1"
+        "foot2 foot2 foot2 foot2"
+        "foot3 foot3 foot3 foot3"
+        "foot4 foot4 foot4 foot4"
     }
+
 }
 @media screen and (max-width:399px){
-    .foot1{
-        display: none;
-    }
-    .foot2{
-        display: none;
-    }
-    .foot3{
-        display: none;
-    }
-    .foot4{
-        display: none;
-    }
     .main {
         height: 30vh;
     }

@@ -10,7 +10,7 @@
     text-align: center;
     background-color: white;
   }
-  .header-2:hover {
+  .header:hover {
     text-decoration: underline;
   }
   .image-1 {
@@ -116,6 +116,7 @@
   }
   .parent {
     position: relative;
+    margin-top: 320px;
   }
   .container2 {
     display: grid;
