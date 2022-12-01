@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calculator2.css" />
+  </head>
+  <body>
+    <div class="textarea__container">
+      <textarea id="output-field" class="textarea" cols="25" rows="2" readonly></textarea
+      >
+    </div>
+    <div class="container">
+      <button class="btn" onclick="showNumber(7);">7</button>
+      <button class="btn" onclick="showNumber(8);">8</button>
+      <button class="btn" onclick="showNumber(9);">9</button>
+      <button class="btn__C" onclick="showNumber('c');">C</button>
+      <button class="btn" onclick="showNumber(4);">4</button>
+      <button class="btn" onclick="showNumber(5);">5</button>
+      <button class="btn" onclick="showNumber(6);">6</button>
+      <button class="btn" onclick="showNumber('*');">*</button>
+      <button class="btn" onclick="showNumber('/');">/</button>
+      <button class="btn" onclick="showNumber(1);">1</button>
+      <button class="btn" onclick="showNumber(2);">2</button>
+      <button class="btn" onclick="showNumber(3);">3</button>
+      <button class="btn" onclick="showNumber('+');">+</button>
+      <button class="btn" onclick="showNumber('-');">-</button>
+      <button class="btn__equals" onclick="outputResult();">=</button>
+      <button class="btn__zero" onclick="showNumber(0);">0</button>
+    </div>
+    <script src="js/calculator2.js"></script>
+  </body>
+</html>
