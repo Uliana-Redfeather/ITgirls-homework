@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+justify-content: center;
+}
+img{
+    height: 800px;
+    width: 800px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.btn1{
+    background-color: rgb(131, 129, 127);
+    color: rgb(241, 241, 234);
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 1200px;
+}
+.btn1:hover{
+    background-color:rgb(102, 100, 98) ;
+}
+.btn2{
+    background-color: rgb(131, 129, 127);
+    color: rgb(241, 241, 234);
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 600px;
+}
+.btn2:hover{
+    background-color:rgb(102, 100, 98) ;
+}
