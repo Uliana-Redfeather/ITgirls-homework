@@ -1,16 +1,16 @@
-.container{
-    text-align: center;
+.container {
+  text-align: center;
 }
-.btn{
-    background-color: rgb(122, 169, 240);
-    color: rgb(255, 255, 255);
-    width: 100px;
-    height: 100px;
-    font-weight: bolder;
+.btn {
+  background-color: rgb(122, 169, 240);
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 100px;
+  font-weight: bolder;
 }
-.btn:hover{
-    background-color:rgb(108, 150, 212) ;
+.btn:hover {
+  background-color: rgb(108, 150, 212);
 }
-.container2{
-    margin: 10px;
+.container2 {
+  margin: 10px;
 }
