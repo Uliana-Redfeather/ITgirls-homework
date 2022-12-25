@@ -14,10 +14,14 @@
     </style>
 </head>
 <body>
-<div>sdflksldf</div>
-<button onclick="hello()"></button>
-<script> let date = new Date();
-    let time = date.getHours();
-    (time < 10) ? alert( "Доброе утро!" ) : alert( "Добрый день!" )</script>
+<script>
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let str = '';
+for (let i=0; i < arr.length; i++){
+    str = str + '-' + arr[i];
+    
+}
+document.write(str + '-' + '<br>');
+</script>
 </body>
 </html>

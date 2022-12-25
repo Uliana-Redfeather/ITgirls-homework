@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <p class="top-text">Калькулятор стоимости автомобиля</p>
+    <div class="container">
+      <p class="bold-text">Цена на аукционе</p>
+      <input type="text" id="carPrice" />
+      <p class="bold-text">Марка</p>
+      <select name="Марка" id="brand">
+        <option id="brandToyota" value="brandToyota">Toyota</option>
+        <option id="brandAudi" value="brandAudi">Audi</option>
+        <option id="brandSkoda" value="brandSkoda">Skoda</option>
+        <option id="brandBMW" value="brandBMW">BMW</option>
+        <option id="brandKia" value="brandKia">Kia</option>
+      </select>
+      <p class="bold-text" id="service">Тип услуги</p>
+      <input type="radio" id="entireCar" name="car" />
+      <label for="entireCar">Целый автомобиль</label>
+      <input type="radio" id="constructorCar" name="car" />
+      <label for="constructorCar">Конструктор легковой</label>
+      <input type="radio" id="spareParts" name="car" />
+      <label for="spareParts">Запчасти</label>
+      <p class="bold-text">Объём двигателя</p>
+      <input type="text" />
+      <p class="bold-text">Возраст автомобиля</p>
+      <input type="radio" id="lessThanThree" name="age" />
+      <label for="lessThanThree">Меньше трёх</label>
+      <input type="radio" id="threeToSeven" name="age" />
+      <label for="threeToSeven">От трёх до семи</label>
+      <input type="radio" id="moreThanSeven" name="age" />
+      <label for="moreThanSeven">Больше семи</label>
+      <p class="bold-text">Получатель</p>
+      <input type="radio" id="individual" name="reciever" />
+      <label for="individual">Физическое лицо</label>
+      <input type="radio" id="entity" name="reciever" />
+      <label for="entity">Юридическое лицо</label> <br />
+      <br />
+      <button class="btn" onclick="calculate()">Рассчитать</button>
+      <br />
+      <br />
+      <div id="sum"></div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

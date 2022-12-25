@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(199, 199, 194);
+}
+.top-text {
+  background-color: rgb(151, 151, 146);
+  color: rgb(241, 238, 234);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  text-align: center;
+  color: rgb(46, 45, 44);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(151, 151, 146);
+}
+.btn {
+  background-color: rgb(151, 151, 146);
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 20px;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: rgb(126, 126, 122);
+}
+
+.bold-text {
+  font-weight: bolder;
+}
