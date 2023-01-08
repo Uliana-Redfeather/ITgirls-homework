@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
+        .div {
             background: rgb(173, 173, 129);
             text-transform: capitalize;
-            position: absolute;
+            display: flex;
+            margin: auto;
+            padding: auto;
+        }
+        .aaa{
+            float: left;
+            
         }
     </style>
 </head>
+<div class="abc">
+    <div class="aaa">
+        a;sdlka;sd
+    </div>
+    <div class="aaa">
+        aaaaa
+    </div>
+</div>
 <body>
 <script>
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let str = '';
-for (let i=0; i < arr.length; i++){
-    str = str + '-' + arr[i];
-    
+const name = 'Vasia';
+ 
+console.log(name.toUpperCase);
+    let num = 0;
+let n = 1000;
+while (n > 50) { 
+n = n/2;
+num = num+1;
 }
-document.write(str + '-' + '<br>');
+document.write( num );
 </script>
 </body>
 </html>
