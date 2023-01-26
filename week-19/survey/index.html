@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title></head>
+<body>
+<form novalidate>
+    <h2>Опрос для владельцев кошек</h2>
+    <fieldset>
+        <div>
+            <label for="name">Кличка питомца</label>
+            <input type="text" id="name" placeholder="Кличка" required>
+        </div>
+        <div>
+            <label for="owner">Имя владельца</label>
+            <input type="text" id="owner" placeholder="Имя владельца" required>
+        </div>
+        <div><label for="number">Телефонный номер владельца</label>
+            <input type="text" id="number" placeholder="Номер телефона" pattern="/^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/" required></div>
+    </fieldset><br>
+<div><select id="breed">
+        <option value="first option">Дворовая порода</option>
+        <option value="second option">Выставочная порода</option>
+        <option value="third option">Другое</option>
+        </select></div> <br>
+        <fieldset><legend placeholder="Чем питается">Чем питается</legend>
+            <div><input placeholder="Чем питается" type="checkbox" id="food">Сухой корм</div>
+            <div><input placeholder="Чем питается" type="checkbox" id="food">Влажный корм</div>
+            <div><input placeholder="Чем питается" type="checkbox" id="food">Натуральный корм</div>
+        </fieldset> <br>
+        <div><label for="name">Укажите пол питомца</label> <br>
+            Самка <input id="sex" placeholder="Пол питомца" type="radio" name="sex" required><br> Самец <input placeholder="Пол питомца" type="radio" id="sex" name="sex" required/></div>
+            <div><h4>Комментарий</h4></div>
+            <div>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea></div>
+            <div><label for="photo">Приложите фото питомца</label>
+                <input placeholder="Фото" type="file" id="photo"></div>
+            <div><button type="button" onclick="saveCat()">Сохранить</button></div>
+            <div id="errorsInfo"></div>
+            
+</form>
+<script src="js/index.js"></script>
+</body>
+</html>
