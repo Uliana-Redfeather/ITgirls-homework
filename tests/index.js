@@ -1,29 +1,8 @@
-function dataReverse(data) {
-  let result = [];
-  let result_temp = [];
-  for (i=0; i<data.length;i += 8){
-    result_temp = [];
-    for (j=0;j<8;j++){
-    
-    result_temp.push(data.slice(i+j,i+j+1))
-  }
-
-  for (j=7;j>=0;j--){
-    result.unshift(data.slice(i+j,i+j+1))
-  }
-  
-
+function minSum(arr) {
+let sum = 0;
+arr.sort((a, b) => a - b);
+for (i=0;i<arr.length/2;i++){
+  sum = sum + arr[i]*arr[arr.length-i-1];
 }
-
-  return result;
-  
+return sum;
 }
-
-const person = {
-  name: 'Valera',
-  age: 23
-}
-let city = person.city
-city= 'Amsterdam'
-person.age = 15
-console.log(person)
