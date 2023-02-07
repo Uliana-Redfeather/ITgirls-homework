@@ -1,8 +1,22 @@
-function minSum(arr) {
-let sum = 0;
-arr.sort((a, b) => a - b);
-for (i=0;i<arr.length/2;i++){
-  sum = sum + arr[i]*arr[arr.length-i-1];
+obj1 = {
+  first:  "1",
+  second: "2",
+  third:  false,
+  fourth: ["anytime",2,3,4],
+  fifth:  null,
+  sixth:  undefined,
+  seventh:{}
 }
-return sum;
-}
+
+function strCount(obj){
+
+  result = 0;
+  for (var i in obj) {
+    if (typeof obj[i] == 'object') result += strCount(obj[i]);
+    if (typeof obj[i] == 'string') result += 1
+  }
+
+
+    return result
+  }
+
